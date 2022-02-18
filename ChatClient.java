@@ -71,3 +71,6 @@ public class ChatClient implements Runnable {
 			client = new ChatClient(args[0], Integer.parseInt(args[1]));  
 	} 
 } 
+
+// java ChatServer 5008
+// java ChatClient 127.0.0.1 5008
